@@ -1,0 +1,36 @@
+{
+  "name": "react-typescript-in-spring-boot",
+  "version": "0.1.0",
+  "description": "Demo of ReactJS with typescript in spring-boot",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vinzlac/react-typescript-in-spring-boot"
+  },
+  "keywords": [
+    "spring",
+    "react",
+    "typescript"
+  ],
+  "author": "Greg L. Turnquist",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/vinzlac/react-typescript-in-spring-boot",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.2",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.4",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
